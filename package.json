@@ -1,7 +1,7 @@
 {
   "name": "pokedex-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "P O K E D E X !!!",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -11,10 +11,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
     "express": "^4.17.1",
+    "helmet": "^3.18.0",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/computershawn/pokedex-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/computershawn/pokedex-api/issues"
+  },
+  "homepage": "https://github.com/computershawn/pokedex-api#readme"
 }
